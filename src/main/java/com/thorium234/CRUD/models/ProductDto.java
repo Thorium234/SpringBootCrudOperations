@@ -1,5 +1,7 @@
 package com.thorium234.CRUD.models;
 
+import java.util.Date;
+
 import org.springframework.web.multipart.MultipartFile;
 
 import jakarta.validation.constraints.Min;
@@ -82,6 +84,24 @@ import jakarta.validation.constraints.*;
 	public void setImageFile(MultipartFile imageFile) {
 		this.imageFile = imageFile;
 	}
+
+
+	public void setCreatedAt(Date createdAt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public Date getCreatedAt() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+//
+//	public void setCreatedAt(Date createdAt) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 	
 	
 	
